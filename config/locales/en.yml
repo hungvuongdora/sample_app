@@ -15,4 +15,8 @@ en:
       word5: "book"
       title2: "Help"
   layouts:
+<<<<<<< HEAD
+=======
+    application:
+>>>>>>> Chapter 3: Mostly static pages
       title3: "Book rails"
