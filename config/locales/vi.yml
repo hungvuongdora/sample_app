@@ -12,5 +12,5 @@ vi:
       word5: "Sách"
       title2: "Giup do"
   layouts:
-    application:
-      title3: "Sách rails"
+      application:
+        full_title: "Sách rails"
