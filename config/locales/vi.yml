@@ -5,6 +5,7 @@ vi:
       word: "Đây là trang chủ cho"
       word1: "ứng dụng mẫu"
       title1: "Nha"
+      word2: "Chào mừng đến với Sample App"
     help:
       word2: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
       word3: "Phần trợ giúp của Rails Tutorial"
@@ -12,5 +13,5 @@ vi:
       word5: "Sách"
       title2: "Giup do"
   layouts:
-    application:
-      title3: "Sách rails"
+      application:
+        full_title: "Sách rails"

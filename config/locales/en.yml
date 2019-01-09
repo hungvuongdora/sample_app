@@ -8,6 +8,7 @@ en:
       word: "This is the home page for the"
       word1: "sample application."
       title1: "Home"
+      word2: "Welcome to the Sample App"
     help:
       word2: "Get help on the Ruby on Rails Tutorial at the"
       word3: "Rails Tutorial help section"
@@ -15,8 +16,5 @@ en:
       word5: "book"
       title2: "Help"
   layouts:
-<<<<<<< HEAD
-=======
-    application:
->>>>>>> Chapter 3: Mostly static pages
-      title3: "Book rails"
+      application:
+        full_title: "Book rails"
