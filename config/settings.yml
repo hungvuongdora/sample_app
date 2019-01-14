@@ -1,0 +1,3 @@
+name_maximun: 50
+email_maximun: 200
+password_digest_minimun: 50

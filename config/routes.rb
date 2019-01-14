@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  get "pages/home"
-  get "pages/help"
+  get "/home", to: "pages#home"
+  get "/help", to: "pages#help"
+  root "pages#home"
 end
