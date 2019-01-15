@@ -1,7 +1,12 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
 en:
+  menu1: "Home"
+  menu2: "help"
+  menu3: "login"
+  menu4: "users"
+  menu5: "Log out"
+  menu6: "Settings"
+  menu7: "Profile"
+  menu8: "Account"
   pages:
     home:
       hello: "Hello word"
@@ -16,5 +21,22 @@ en:
       word5: "book"
       title2: "Help"
   layouts:
-      application:
-        full_title: "Book rails"
+    application:
+      full_title: "Book rails"
+  shared:
+    error_messages:
+      error1: "The form contains"
+      error2: "error"
+  users:
+    create:
+      flash: "Welcome to the Sample App!"
+      danger: "Errors....."
+  users:
+    new:
+      word6: "Sign up"
+      title3: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      Confirmation: "Confirmation"
+      button: "Create my account"

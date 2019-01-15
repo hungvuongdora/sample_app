@@ -1,10 +1,18 @@
 vi:
+  menu1: "Trang chu"
+  menu2: "Tro giup"
+  menu3: "Dang nhap"
+  menu4: "Nguoi dung"
+  menu5: "Dang xuat"
+  menu6: "Cai dat"
+  menu7: "Ho so"
+  menu8: "Tai khoan"
   pages:
     home:
       hello: "Xin chao"
       word: "Đây là trang chủ cho"
       word1: "ứng dụng mẫu"
-      title1: "Nha"
+      title1: "Trang chu"
       word2: "Chào mừng đến với Sample App"
     help:
       word2: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
@@ -13,5 +21,22 @@ vi:
       word5: "Sách"
       title2: "Giup do"
   layouts:
-      application:
+    application:
         full_title: "Sách rails"
+  shared:
+    error_messages:
+        error1: "Biểu mẫu có chứa"
+        error2: "lỗi"
+  users:
+    create:
+      flash: "Chào mừng đến với Sample App!"
+      danger: "lỗi ...."
+  users:
+    new:
+      word6: "Đăng nhập"
+      title3: "Đăng nhập"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      Confirmation: "Nhập lại"
+      button: "Tạo tài khoản"
