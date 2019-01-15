@@ -1,10 +1,13 @@
 vi:
+  menu1: "Trang chu"
+  menu2: "Tro giup"
+  menu3: "Dang nhap"
   pages:
     home:
       hello: "Xin chao"
       word: "Đây là trang chủ cho"
       word1: "ứng dụng mẫu"
-      title1: "Nha"
+      title1: "Trang chu"
       word2: "Chào mừng đến với Sample App"
     help:
       word2: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
@@ -15,3 +18,4 @@ vi:
   layouts:
       application:
         full_title: "Sách rails"
+

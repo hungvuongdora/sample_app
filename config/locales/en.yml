@@ -2,6 +2,9 @@
 # and are automatically loaded by Rails. If you want to use locales other
 # than English, add the necessary files in this directory.
 en:
+  menu1: "Home"
+  menu2: "help"
+  menu3: "login"
   pages:
     home:
       hello: "Hello word"
@@ -18,3 +21,5 @@ en:
   layouts:
       application:
         full_title: "Book rails"
+
+
