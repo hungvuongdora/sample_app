@@ -2,6 +2,11 @@ vi:
   menu1: "Trang chu"
   menu2: "Tro giup"
   menu3: "Dang nhap"
+  menu4: "Nguoi dung"
+  menu5: "Dang xuat"
+  menu6: "Cai dat"
+  menu7: "Ho so"
+  menu8: "Tai khoan"
   pages:
     home:
       hello: "Xin chao"
@@ -16,6 +21,32 @@ vi:
       word5: "Sách"
       title2: "Giup do"
   layouts:
-      application:
+    application:
         full_title: "Sách rails"
-
+  shared:
+    error_messages:
+        error1: "Biểu mẫu có chứa"
+        error2: "lỗi"
+  users:
+    create:
+      flash: "Chào mừng đến với Sample App!"
+      danger: "lỗi ...."
+  users:
+    new:
+      word6: "Đăng nhập"
+      title3: "Đăng nhập"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      Confirmation: "Nhập lại"
+      button: "Tạo tài khoản"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      content: "Đăng nhập"
+      content1: "Người dùng mới?"
+      danger: "Email/mật khẩu không hợp lệ"
+      label_email: "Email"
+      label_password: "Mật khẩu"
+      button_login: "Đăng nhập"
+      link_signup: "Đăng ký ngay!"
