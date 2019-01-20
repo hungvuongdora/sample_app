@@ -40,3 +40,13 @@ en:
       password: "Password"
       Confirmation: "Confirmation"
       button: "Create my account"
+  sessions:
+    new:
+      title: "Log in"
+      content: "Log in"
+      content1: "New user?"
+      danger: "Invalid email/password combination"
+      label_email: "Email"
+      label_password: "Password"
+      button_login: "Log in"
+      link_signup: "Sign up now!"
