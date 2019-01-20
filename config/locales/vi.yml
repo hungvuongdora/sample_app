@@ -40,3 +40,14 @@ vi:
       password: "Mật khẩu"
       Confirmation: "Nhập lại"
       button: "Tạo tài khoản"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      content: "Đăng nhập"
+      content1: "Người dùng mới?"
+      content2: "Ghi nhớ đăng nhập"
+      danger: "Email/mật khẩu không hợp lệ"
+      label_email: "Email"
+      label_password: "Mật khẩu"
+      button_login: "Đăng nhập"
+      link_signup: "Đăng ký ngay!"

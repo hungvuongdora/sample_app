@@ -7,10 +7,11 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      flash[:success] = t".flash"
+      log_in @user
+      flash.now[:success] = t ".flash"
       redirect_to @user
     else
-      flash[:danger] = t".danger"
+      flash.now[:danger] = t ".danger"
       render :new
     end
   end
@@ -19,13 +20,14 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
 
     return if @user
-    flash[:danger] = t".danger"
+    flash[:danger] = t ".danger"
     redirect_to signup_path
   end
 
   private
 
   def user_params
-    params.require(:user).permit :name, :email, :password,:password_confirmation
+    params.require(:user).permit :name, :email, :password,
+      :password_confirmation
   end
 end
