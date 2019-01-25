@@ -2,3 +2,4 @@ name_maximun: 50
 email_maximun: 200
 password_minimun: 6
 size: 80
+remember: 1

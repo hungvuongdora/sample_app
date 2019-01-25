@@ -45,6 +45,7 @@ en:
       title: "Log in"
       content: "Log in"
       content1: "New user?"
+      content2: "Remember login"
       danger: "Invalid email/password combination"
       label_email: "Email"
       label_password: "Password"
