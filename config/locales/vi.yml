@@ -31,15 +31,36 @@ vi:
     create:
       flash: "Chào mừng đến với Sample App!"
       danger: "lỗi ...."
+    update:
+      success: "Hồ sơ cá nhân đã cập nhật"
+    destroy:
+      success: "Người dùng đã xóa"
+      danger: "Lỗi ..."
+    logged_in_use:
+      danger: "Xin vui lòng đăng nhập."
+    find_user:
+      danger: "Lỗi ..."
   users:
-    new:
-      word6: "Đăng nhập"
-      title3: "Đăng nhập"
+    form:
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       Confirmation: "Nhập lại"
       button: "Tạo tài khoản"
+    user:
+      link_delete: "Xóa bỏ"
+      confirm: "You sure?"
+    index:
+      title: "Tất cả người dùng"
+      content: "Tất cả người dùng"
+    edit:
+      title: "Sửa người dùng"
+      button_save: "Lưu thay đổi"
+      content: "Cập nhật hồ sơ của bạn"
+      content1: "Thay đổi"
+    new:
+      word6: "Đăng nhập"
+      title3: "Đăng nhập"
   sessions:
     new:
       title: "Đăng nhập"
@@ -51,3 +72,54 @@ vi:
       label_password: "Mật khẩu"
       button_login: "Đăng nhập"
       link_signup: "Đăng ký ngay!"
+    create:
+      danger: "Lỗi ..."
+      danger1: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết kích hoạt \ link"
+  account_activations:
+    edit:
+      success: "Tài khoản được kích hoạt!"
+      danger: "Liên kết kích hoạt không hợp lệ"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      title: "Sample App"
+      content1: "Chào"
+      content2: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để \ kích hoạt tài khoản của bạn:"
+      danger: "Lỗi ..."
+    logged_in_use:
+      danger: "Xin vui lòng đăng nhập."
+    find_user:
+      danger: "Lỗi ..."
+  users:
+    form:
+      word6: "Đăng nhập"
+      title3: "Đăng nhập"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      Confirmation: "Nhập lại"
+      button: "Tạo tài khoản"
+    user:
+      link_delete: "Xóa bỏ"
+      confirm: "You sure?"
+    index:
+      title: "Tất cả người dùng"
+      content: "Tất cả người dùng"
+    edit:
+      title: "Sửa người dùng"
+      button_save: "Lưu thay đổi"
+      content: "Cập nhật hồ sơ của bạn"
+      content1: "Thay đổi"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      content: "Đăng nhập"
+      content1: "Người dùng mới?"
+      content2: "Ghi nhớ đăng nhập"
+      danger: "Email/mật khẩu không hợp lệ"
+      label_email: "Email"
+      label_password: "Mật khẩu"
+      button_login: "Đăng nhập"
+      link_signup: "Đăng ký ngay!"
+    create:
+      danger: "Lỗi ..."

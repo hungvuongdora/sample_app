@@ -31,15 +31,33 @@ en:
     create:
       flash: "Welcome to the Sample App!"
       danger: "Errors....."
+    update:
+      success: "Profile updated"
+      danger: "Error ..."
+    destroy:
+      success: "User deleted"
+    logged_in_use:
+      danger: "Please log in."
   users:
-    new:
-      word6: "Sign up"
-      title3: "Sign up"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       Confirmation: "Confirmation"
       button: "Create my account"
+    user:
+      link_delete: "Delete"
+      confirm: "You sure?"
+    index:
+      title: "All users"
+      content: "All users"
+    edit:
+      title: "Edit user"
+      button_save: "Save changes"
+      content: "Update your profile"
+    new:
+      word6: "Sign up"
+      title3: "Sign up"
   sessions:
     new:
       title: "Log in"
@@ -51,3 +69,17 @@ en:
       label_password: "Password"
       button_login: "Log in"
       link_signup: "Sign up now!"
+    create:
+      danger: "Error"
+      danger1: "Account not activated. Check your email for the activation \ link"
+  account_activations:
+    edit:
+      success: "Account activated!"
+      danger: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      content1: "Hi"
+      content2: "Welcome to the Sample App! Click on the link below to \ activate your account:"
+      link_activate: ""

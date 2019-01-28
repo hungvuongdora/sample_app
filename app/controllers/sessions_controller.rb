@@ -20,13 +20,18 @@ class SessionsController < ApplicationController
   private
 
   def set_cookie_sessions user
-    log_in user
+    if user.activated?
+      log_in user
 
-    if params[:session][:remember_me] == Settings.remember
-      remember user
+      if params[:session][:remember_me] == Settings.remember
+        remember user
+      else
+        forget user
+      end
+      redirect_back_or user
     else
-      forget user
+      flash[:danger] = t ".danger1"
+      redirect_to root_url
     end
-    redirect_to user
   end
 end
