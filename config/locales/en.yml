@@ -31,8 +31,15 @@ en:
     create:
       flash: "Welcome to the Sample App!"
       danger: "Errors....."
+    update:
+      success: "Profile updated"
+      danger: "Error ..."
+    destroy:
+      success: "User deleted"
+    logged_in_use:
+      danger: "Please log in."
   users:
-    new:
+    form:
       word6: "Sign up"
       title3: "Sign up"
       name: "Name"
@@ -40,6 +47,16 @@ en:
       password: "Password"
       Confirmation: "Confirmation"
       button: "Create my account"
+    user:
+      link_delete: "Delete"
+      confirm: "You sure?"
+    index:
+      title: "All users"
+      content: "All users"
+    edit:
+      title: "Edit user"
+      button_save: "Save changes"
+      content: "Update your profile"
   sessions:
     new:
       title: "Log in"
@@ -51,3 +68,5 @@ en:
       label_password: "Password"
       button_login: "Log in"
       link_signup: "Sign up now!"
+    create:
+      danger: "Error"
