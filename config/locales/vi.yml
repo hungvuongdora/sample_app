@@ -42,6 +42,61 @@ vi:
       danger: "Lỗi ..."
   users:
     form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      Confirmation: "Nhập lại"
+      button: "Tạo tài khoản"
+    user:
+      link_delete: "Xóa bỏ"
+      confirm: "You sure?"
+    index:
+      title: "Tất cả người dùng"
+      content: "Tất cả người dùng"
+    edit:
+      title: "Sửa người dùng"
+      button_save: "Lưu thay đổi"
+      content: "Cập nhật hồ sơ của bạn"
+      content1: "Thay đổi"
+    new:
+      word6: "Đăng nhập"
+      title3: "Đăng nhập"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      content: "Đăng nhập"
+      content1: "Người dùng mới?"
+      content2: "Ghi nhớ đăng nhập"
+      danger: "Email/mật khẩu không hợp lệ"
+      label_email: "Email"
+      label_password: "Mật khẩu"
+      button_login: "Đăng nhập"
+      link_signup: "Đăng ký ngay!"
+    create:
+      danger: "Lỗi ..."
+      danger1: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết kích hoạt \ link"
+  account_activations:
+    edit:
+      success: "Tài khoản được kích hoạt!"
+      danger: "Liên kết kích hoạt không hợp lệ"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      title: "Sample App"
+      content1: "Chào"
+      content2: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để \ kích hoạt tài khoản của bạn:"
+      danger: "Lỗi ..."
+    logged_in_use:
+      danger: "Xin vui lòng đăng nhập."
+    find_user:
+      danger: "Lỗi ..."
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      content1: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+      content2: "Liên kết này sẽ hết hạn trong hai giờ."
+      content3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng \ bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+  users:
+    form:
       word6: "Đăng nhập"
       title3: "Đăng nhập"
       name: "Tên"

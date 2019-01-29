@@ -38,10 +38,7 @@ en:
       success: "User deleted"
     logged_in_use:
       danger: "Please log in."
-  users:
     form:
-      word6: "Sign up"
-      title3: "Sign up"
       name: "Name"
       email: "Email"
       password: "Password"
@@ -57,6 +54,9 @@ en:
       title: "Edit user"
       button_save: "Save changes"
       content: "Update your profile"
+    new:
+      word6: "Sign up"
+      title3: "Sign up"
   sessions:
     new:
       title: "Log in"
@@ -70,3 +70,36 @@ en:
       link_signup: "Sign up now!"
     create:
       danger: "Error"
+      danger1: "Account not activated. Check your email for the activation \ link"
+  account_activations:
+    edit:
+      success: "Account activated!"
+      danger: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      content1: "Hi"
+      content2: "Welcome to the Sample App! Click on the link below to \ activate your account:"
+      link_activate: "activate"
+  password_reset:
+    subject: "Password reset"
+    content1: "To reset your password click the link below:"
+    content2: "This link will expire in two hours."
+    content3: "If you did not request your password to be reset, please \ ignore this email and your password will stay as it is."
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+    create:
+      info: "Email sent with password reset instructions"
+      danger: "Email address not found"
+    edit:
+      title: "Reset password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+      expired_warning: "Password reset has expired."
+    update:
+      error: "can't be empty"
+      success: "Password has been reset."
+      danger: "User not found!"

@@ -16,36 +16,32 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      log_in @user
-      flash.now[:success] = t".flash"
+      @user.send_activation_email
+      flash.now[:success] = t ".flash"
       redirect_to @user
     else
-      flash.now[:danger] = t".danger"
+      flash.now[:danger] = t ".danger"
       render :new
     end
   end
 
-  def show
-    return if @user
-    flash[:danger] = t".danger"
-    redirect_to signup_path
-  end
+  def show; end
 
   def edit; end
 
   def update
     if @user.update user_params
-      flash[:success] = t".success"
+      flash[:success] = t ".success"
       redirect_to @user
     else
-      flash.now[:danger] = t".danger"
+      flash.now[:danger] = t ".danger"
       render :edit
     end
   end
 
   def destroy
     if @user&.destroy
-      flash[:success] = t".success"
+      flash[:success] = t ".success"
     else
       flash[:danger] = t".danger"
     end
@@ -62,7 +58,7 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in?
     store_location
-    flash[:danger] = t".danger"
+    flash[:danger] = t ".danger"
     redirect_to login_url
   end
 
@@ -70,7 +66,8 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
 
     return if @user
-    flash[:danger] = t".danger"
+    flash[:danger] = t ".danger"
+    redirect_to signup_path
   end
 
   def correct_user
