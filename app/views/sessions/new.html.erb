@@ -19,6 +19,8 @@
       <%= f.submit t(".button_login"), class: "btn btn-primary" %>
     <% end %>
 
-    <p><%= t".content1" %><%= link_to t(".link_signup"), signup_path %></p>
+    <p><%= t".content_url",
+    link1: link_to t(".link_signup"), signup_path
+    link2: link_to t(".forgot_password"), new_password_reset_path %></p>
   </div>
 </div>
