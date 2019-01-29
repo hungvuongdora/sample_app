@@ -40,8 +40,6 @@ en:
       danger: "Please log in."
   users:
     form:
-      word6: "Sign up"
-      title3: "Sign up"
       name: "Name"
       email: "Email"
       password: "Password"
@@ -57,6 +55,9 @@ en:
       title: "Edit user"
       button_save: "Save changes"
       content: "Update your profile"
+    new:
+      word6: "Sign up"
+      title3: "Sign up"
   sessions:
     new:
       title: "Log in"
@@ -70,3 +71,15 @@ en:
       link_signup: "Sign up now!"
     create:
       danger: "Error"
+      danger1: "Account not activated. Check your email for the activation \ link"
+  account_activations:
+    edit:
+      success: "Account activated!"
+      danger: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      content1: "Hi"
+      content2: "Welcome to the Sample App! Click on the link below to \ activate your account:"
+      link_activate: ""

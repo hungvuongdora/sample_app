@@ -16,7 +16,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      log_in @user
+      @user.send_activation_email
       flash.now[:success] = t".flash"
       redirect_to @user
     else
