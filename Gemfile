@@ -9,6 +9,7 @@ gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "faker", ">= 1.6.6"
+gem "figaro", ">= 1.1.1"
 gem "i18n", ">=1.4.0"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails", ">= 4.3.3"
@@ -20,7 +21,6 @@ gem "sass-rails", "~> 5.0"
 gem "sqlite3"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
-gem "figaro", ">= 1.1.1"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

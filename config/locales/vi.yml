@@ -90,6 +90,11 @@ vi:
       danger: "Xin vui lòng đăng nhập."
     find_user:
       danger: "Lỗi ..."
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      content1: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+      content2: "Liên kết này sẽ hết hạn trong hai giờ."
+      content3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng \ bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
   users:
     form:
       word6: "Đăng nhập"

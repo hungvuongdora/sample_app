@@ -7,3 +7,4 @@ user_controller:
   value_item: 2
 user_html_erb:
   size: 50
+expired_time_reset_password: 2

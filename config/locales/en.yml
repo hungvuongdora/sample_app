@@ -38,7 +38,6 @@ en:
       success: "User deleted"
     logged_in_use:
       danger: "Please log in."
-  users:
     form:
       name: "Name"
       email: "Email"
@@ -82,4 +81,25 @@ en:
       title: "Sample App"
       content1: "Hi"
       content2: "Welcome to the Sample App! Click on the link below to \ activate your account:"
-      link_activate: ""
+      link_activate: "activate"
+  password_reset:
+    subject: "Password reset"
+    content1: "To reset your password click the link below:"
+    content2: "This link will expire in two hours."
+    content3: "If you did not request your password to be reset, please \ ignore this email and your password will stay as it is."
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+    create:
+      info: "Email sent with password reset instructions"
+      danger: "Email address not found"
+    edit:
+      title: "Reset password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+      expired_warning: "Password reset has expired."
+    update:
+      error: "can't be empty"
+      success: "Password has been reset."
+      danger: "User not found!"
