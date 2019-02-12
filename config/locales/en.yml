@@ -1,32 +1,38 @@
 en:
-  menu1: "Home"
-  menu2: "help"
-  menu3: "login"
-  menu4: "users"
-  menu5: "Log out"
-  menu6: "Settings"
-  menu7: "Profile"
-  menu8: "Account"
+  menu:
+    home: "Home"
+    help: "help"
+    login: "login"
+    users: "users"
+    logout: "Log out"
+    setting: "Settings"
+    pro: "Profile"
+    acc: "Account"
+  micropost:
+    content_html: "Posted %{link1} ago"
+    compose_new: "Compose new micropost..."
   pages:
     home:
       hello: "Hello word"
-      word: "This is the home page for the"
-      word1: "sample application."
-      title1: "Home"
-      word2: "Welcome to the Sample App"
+      word: "sample application. %{link1}"
+      title: "Home"
+      rails: "rails.png"
+      alt: "Rails logo"
+      url: "http://rubyonrails.org/"
+      link_rails: "Ruby on Rails Tutorial"
+      kitten: "kitten.jpg"
+      link_login_out: "login"
     help:
-      word2: "Get help on the Ruby on Rails Tutorial at the"
-      word3: "Rails Tutorial help section"
-      word4: "To get help on this sample app, see the"
-      word5: "book"
-      title2: "Help"
+      word: "Get help on the Ruby on Rails Tutorial at the %{link1}"
+      word_url: "To get help on this sample app, see the %{link2}"
+      title: "Help"
   layouts:
     application:
       full_title: "Book rails"
   shared:
     error_messages:
-      error1: "The form contains"
-      error2: "error"
+      error: "error"
+      the_form_contains: The form contains
   users:
     create:
       flash: "Welcome to the Sample App!"
@@ -55,14 +61,13 @@ en:
       button_save: "Save changes"
       content: "Update your profile"
     new:
-      word6: "Sign up"
-      title3: "Sign up"
+      word: "Sign up"
+      title: "Sign up"
   sessions:
     new:
       title: "Log in"
       content: "Log in"
-      content1: "New user?"
-      content2: "Remember login"
+      content_url: "Remember login"
       danger: "Invalid email/password combination"
       label_email: "Email"
       label_password: "Password"
@@ -70,7 +75,7 @@ en:
       link_signup: "Sign up now!"
     create:
       danger: "Error"
-      danger1: "Account not activated. Check your email for the activation \ link"
+      danger_create: "Account not activated. Check your email for the activation \ link"
   account_activations:
     edit:
       success: "Account activated!"
@@ -79,14 +84,11 @@ en:
     account_activation:
       subject: "Account activation"
       title: "Sample App"
-      content1: "Hi"
-      content2: "Welcome to the Sample App! Click on the link below to \ activate your account:"
+      content_url: "Hi %{link1} Welcome to the Sample App! Click on the link below to \ activate your account:"
       link_activate: "activate"
   password_reset:
     subject: "Password reset"
-    content1: "To reset your password click the link below:"
-    content2: "This link will expire in two hours."
-    content3: "If you did not request your password to be reset, please \ ignore this email and your password will stay as it is."
+    content_url: "To reset your password click the link below:"
   password_resets:
     new:
       title: "Forgot password"

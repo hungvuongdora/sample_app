@@ -1,130 +1,107 @@
 vi:
-  menu1: "Trang chu"
-  menu2: "Tro giup"
-  menu3: "Dang nhap"
-  menu4: "Nguoi dung"
-  menu5: "Dang xuat"
-  menu6: "Cai dat"
-  menu7: "Ho so"
-  menu8: "Tai khoan"
+  menu:
+    home: "Home"
+    help: "Giup do"
+    login: "Dang nhap"
+    users: "Nguoi dung"
+    logout: "Dang xuat"
+    setting: "Cai dat"
+    pro: "Hồ sơ"
+    acc: "Nguoi dung"
+  micropost:
+    content_html: "Posted %{link1} ago"
+    compose_new: "Compose new micropost..."
   pages:
     home:
+      title: "Nha"
       hello: "Xin chao"
-      word: "Đây là trang chủ cho"
-      word1: "ứng dụng mẫu"
-      title1: "Trang chu"
-      word2: "Chào mừng đến với Sample App"
+      word: "sample application. %{link1}"
+      rails: "rails.png"
+      alt: "Rails logo"
+      url: "http://rubyonrails.org/"
+      link_rails: "Ruby on Rails Tutorial"
+      kitten: "kitten.jpg"
+      link_login_out: "login"
     help:
-      word2: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
-      word3: "Phần trợ giúp của Rails Tutorial"
-      word4: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
-      word5: "Sách"
-      title2: "Giup do"
+      word: "Get help on the Ruby on Rails Tutorial at the %{link1}"
+      word_url: "To get help on this sample app, see the %{link2}"
+      title: "Giup do"
   layouts:
     application:
-        full_title: "Sách rails"
+      full_title: "Sach rails"
   shared:
     error_messages:
-        error1: "Biểu mẫu có chứa"
-        error2: "lỗi"
+      error: "Loi"
+      the_form_contains: The form contains
   users:
     create:
-      flash: "Chào mừng đến với Sample App!"
-      danger: "lỗi ...."
+      flash: "Welcome to the Sample App!"
+      danger: "Loi....."
     update:
-      success: "Hồ sơ cá nhân đã cập nhật"
+      success: "Profile updated"
+      danger: "Loi ..."
     destroy:
-      success: "Người dùng đã xóa"
-      danger: "Lỗi ..."
+      success: "User deleted"
     logged_in_use:
-      danger: "Xin vui lòng đăng nhập."
-    find_user:
-      danger: "Lỗi ..."
-  users:
+      danger: "Please log in."
     form:
-      name: "Tên"
+      name: "Ten"
       email: "Email"
-      password: "Mật khẩu"
-      Confirmation: "Nhập lại"
-      button: "Tạo tài khoản"
+      password: "Mat khau"
+      Confirmation: "Confirmation"
+      button: "Create my account"
     user:
-      link_delete: "Xóa bỏ"
+      link_delete: "Xoa"
       confirm: "You sure?"
     index:
-      title: "Tất cả người dùng"
-      content: "Tất cả người dùng"
+      title: "Tat ca nguoi dung"
+      content: "Tat ca nguoi dung"
     edit:
-      title: "Sửa người dùng"
-      button_save: "Lưu thay đổi"
-      content: "Cập nhật hồ sơ của bạn"
-      content1: "Thay đổi"
+      title: "Sua nguoi dung"
+      button_save: "Save changes"
+      content: "Update your profile"
     new:
-      word6: "Đăng nhập"
-      title3: "Đăng nhập"
+      word: "Sign up"
+      title: "Sign up"
   sessions:
     new:
-      title: "Đăng nhập"
-      content: "Đăng nhập"
-      content1: "Người dùng mới?"
-      content2: "Ghi nhớ đăng nhập"
-      danger: "Email/mật khẩu không hợp lệ"
+      title: "Log in"
+      content: "Log in"
+      content_url: "Remember login"
+      danger: "Invalid email/password combination"
       label_email: "Email"
-      label_password: "Mật khẩu"
-      button_login: "Đăng nhập"
-      link_signup: "Đăng ký ngay!"
+      label_password: "Password"
+      button_login: "Log in"
+      link_signup: "Sign up now!"
     create:
-      danger: "Lỗi ..."
-      danger1: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết kích hoạt \ link"
+      danger: "Loi"
+      danger_create: "Account not activated. Check your email for the activation \ link"
   account_activations:
     edit:
-      success: "Tài khoản được kích hoạt!"
-      danger: "Liên kết kích hoạt không hợp lệ"
+      success: "Account activated!"
+      danger: "Invalid activation link"
   user_mailer:
     account_activation:
-      subject: "Kích hoạt tài khoản"
+      subject: "Account activation"
       title: "Sample App"
-      content1: "Chào"
-      content2: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để \ kích hoạt tài khoản của bạn:"
-      danger: "Lỗi ..."
-    logged_in_use:
-      danger: "Xin vui lòng đăng nhập."
-    find_user:
-      danger: "Lỗi ..."
-    password_reset:
-      subject: "Đặt lại mật khẩu"
-      content1: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
-      content2: "Liên kết này sẽ hết hạn trong hai giờ."
-      content3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng \ bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
-  users:
-    form:
-      word6: "Đăng nhập"
-      title3: "Đăng nhập"
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      Confirmation: "Nhập lại"
-      button: "Tạo tài khoản"
-    user:
-      link_delete: "Xóa bỏ"
-      confirm: "You sure?"
-    index:
-      title: "Tất cả người dùng"
-      content: "Tất cả người dùng"
-    edit:
-      title: "Sửa người dùng"
-      button_save: "Lưu thay đổi"
-      content: "Cập nhật hồ sơ của bạn"
-      content1: "Thay đổi"
-  sessions:
+      content_url: "Xin chao %{link1} Welcome to the Sample App! Click on the link below to \ activate your account:"
+      link_activate: "activate"
+  password_reset:
+    subject: "Nhap lai pass"
+    content_url: "To reset your password click the link below:"
+  password_resets:
     new:
-      title: "Đăng nhập"
-      content: "Đăng nhập"
-      content1: "Người dùng mới?"
-      content2: "Ghi nhớ đăng nhập"
-      danger: "Email/mật khẩu không hợp lệ"
-      label_email: "Email"
-      label_password: "Mật khẩu"
-      button_login: "Đăng nhập"
-      link_signup: "Đăng ký ngay!"
+      title: "Quen mat khau
+      submit: "Gui di"
     create:
-      danger: "Lỗi ..."
+      info: "Email sent with password reset instructions"
+      danger: "Email address not found"
+    edit:
+      title: "Nhap lai pass"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+      expired_warning: "Password reset has expired."
+    update:
+      error: "can't be empty"
+      success: "Password has been reset."
+      danger: "User not found!"

@@ -1,7 +1,5 @@
 <h1><%= t ".title" %></h1>
-<p>Hi <%= @user.name %>,</p>
-<p>
-  <%= t ".content2" %>
-</p>
-<%= link_to t(".link_activate"), edit_account_activation_url(@user.activation_token,
-  email: @user.email) %>
+<p><%= t(".content_url"),
+  <%= @user.name %>,
+  link1: <%= link_to t(".link_activate"), edit_account_activation_url(@user.activation_token,
+  email: @user.email) %></p>
