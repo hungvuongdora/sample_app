@@ -30,7 +30,7 @@ class SessionsController < ApplicationController
       end
       redirect_back_or user
     else
-      flash[:danger] = t ".danger1"
+      flash[:danger] = t ".danger_create"
       redirect_to root_url
     end
   end

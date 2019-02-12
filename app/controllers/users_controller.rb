@@ -25,7 +25,13 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @build_relationship = current_user.active_relationships.build
+    @find_relationship = current_user.active_relationships
+      .find_by followed_id: @user.id
+    @microposts = @user.microposts.order_desc.page(params[:page])
+      .per Settings.micropost_per_page
+  end
 
   def edit; end
 
@@ -46,6 +52,20 @@ class UsersController < ApplicationController
       flash[:danger] = t".danger"
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = "Following"
+    @user  = User.find_by id: params[:id]
+    @users = @user.following.paginate page: params[:page]
+    render "show_follow"
+  end
+
+  def followers
+    @title = "Followers"
+    @user  = User.find_by id: params[:id]
+    @users = @user.followers.paginate page: params[:page]
+    render "show_follow"
   end
 
   private

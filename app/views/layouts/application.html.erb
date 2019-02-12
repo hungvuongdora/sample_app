@@ -8,8 +8,8 @@
 
   <body>
     <%= render "layouts/header" %>
-    <%= link_to "English", locale: "en" %>
-    <%= link_to "Vietnamese", locale: "vi"%>
+    <%= link_to t(".English"), locale: "en" %>
+    <%= link_to t(".Vietnamese)", locale: "vi"%>
     <div class="container">
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>">

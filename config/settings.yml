@@ -1,6 +1,9 @@
 name_maximun: 50
 email_maximun: 200
 password_minimun: 6
+avatar_size: 50
+picture_size: 400
+micropost_per_page: 20
 size: 80
 remember: 1
 user_controller:
@@ -8,3 +11,4 @@ user_controller:
 user_html_erb:
   size: 50
 expired_time_reset_password: 2
+follow_gravatar: 30
